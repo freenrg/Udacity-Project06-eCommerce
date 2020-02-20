@@ -19,9 +19,14 @@ public class User {
 	@JsonProperty
 	private String username;
 
-	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-	@Column(nullable = false)
+
+	@JsonProperty // (access = JsonProperty.Access.WRITE_ONLY)
+	@Column
 	private String password;
+
+	@Column
+	@JsonProperty
+	private byte[] salt;
 
 	public String getPassword() {
 		return password;
@@ -35,7 +40,16 @@ public class User {
     @JoinColumn(name = "cart_id", referencedColumnName = "id")
 	@JsonIgnore
     private Cart cart;
-	
+
+
+	public byte[] getSalt() {
+		return salt;
+	}
+
+	public void setSalt(byte[] salt) {
+		this.salt = salt;
+	}
+
 	public Cart getCart() {
 		return cart;
 	}

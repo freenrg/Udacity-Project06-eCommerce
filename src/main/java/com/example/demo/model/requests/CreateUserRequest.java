@@ -6,8 +6,8 @@ public class CreateUserRequest {
 
 	@JsonProperty
 	private String username;
-	private String password;
-	private String confirmPassword;
+ 	private String password;
+ 	private String confirmPassword;
 
 	public String getPassword() {
 		return password;
