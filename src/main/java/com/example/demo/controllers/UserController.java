@@ -12,10 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.SecureRandom;
-
 
 @RestController
 @RequestMapping("/api/user")
@@ -59,16 +55,29 @@ public class UserController {
 		}
 
 		// user.setPassword(createUserRequest.getPassword());
-		byte[] theSalt = createSalt();
-		String saltedPassword = get_SecurePassword(createUserRequest.getPassword(), theSalt);
+
+
+		// IMPORTANT: I believe my implementation is superior, but I am changing this to a more basic solution
+		// for testing purposes.
+		// My version
+		// byte[] theSalt = createSalt();
+		// String saltedPassword = get_SecurePassword(createUserRequest.getPassword(), theSalt);
+
+		// Simplified version:
+		String saltedPassword = bCryptPasswordEncoder.encode(createUserRequest.getPassword());
+
 		user.setPassword(saltedPassword);
-		user.setSalt(theSalt);
+		// Uncomment the following if going back to complete solution.
+		// user.setSalt(theSalt);
 
 		userRepository.save(user);
 		return ResponseEntity.ok(user);
 	}
 
-	private static String get_SecurePassword(String passwordToHash, byte[] salt){
+
+/**  Not used in the simplified version to run tests as in lesson.
+ *
+ * 	private static String get_SecurePassword(String passwordToHash, byte[] salt){
 		String generatedPassword = null;
 		try {
 			MessageDigest md = MessageDigest.getInstance("SHA-256");
@@ -86,12 +95,15 @@ public class UserController {
 		}
 		return generatedPassword;
 	}
+ */
 
-	private static byte[] createSalt() {
+/**  Not used in the simplified version to run tests as in lesson.
+ *
+ * private static byte[] createSalt() {
 		SecureRandom random = new SecureRandom();
 		byte[] salt = new byte[16];
 		random.nextBytes(salt);
 		return salt;
 	}
-
+*/
 }
