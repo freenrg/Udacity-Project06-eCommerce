@@ -3,8 +3,6 @@ package com.example.demo.security;
 import com.auth0.jwt.JWT;
 import com.example.demo.model.persistence.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -22,11 +20,16 @@ import java.util.Date;
 import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
 import static com.example.demo.security.SecurityConstants.*;
 
+// @EnableJpaRepositories(basePackages = "controllers")
+// @EntityScan(basePackages = "controllers")
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     private AuthenticationManager authenticationManager;
 
-    private static Logger myLog = LoggerFactory.getLogger(JWTAuthenticationFilter.class);
+    // @Autowired
+    // private UserRepository userRepository;
+
+    // private static Logger myLog = LoggerFactory.getLogger(JWTAuthenticationFilter.class);
 
     public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
         this.authenticationManager = authenticationManager;
@@ -47,7 +50,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
             );
 
         } catch (IOException e) {
-            myLog.error("Authentication Failed. Error Message: {}. Cause: {}", e.getMessage(), e.getCause());
+//            myLog.error("Authentication Failed. Error Message: {}. Cause: {}", e.getMessage(), e.getCause());
             throw new RuntimeException(e);
         }
     }
@@ -61,7 +64,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
                 .withSubject(((org.springframework.security.core.userdetails.User) auth.getPrincipal()).getUsername())
                 .withExpiresAt(new Date(System.currentTimeMillis() + EXPIRATION_TIME))
                 .sign(HMAC512(SECRET.getBytes()));
-        myLog.info("Successful Authentication, JWT created.");
+//        myLog.info("Successful Authentication, JWT created.");
         response.addHeader(HEADER_STRING, TOKEN_PREFIX + myToken);
     }
 }

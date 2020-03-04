@@ -5,16 +5,12 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.SecureRandom;
+// import org.slf4j.Logger;
 
 
 @RestController
@@ -30,7 +26,8 @@ public class UserController {
 	@Autowired
 	private BCryptPasswordEncoder bCryptPasswordEncoder;
 
-	final static Logger log = LoggerFactory.getLogger(UserController.class);
+//	¿Es éste el problema de compilación?
+// 	final static Logger log = LoggerFactory.getLogger(UserController.class);
 
 	@GetMapping("/id/{id}")
 	public ResponseEntity<User> findById(@PathVariable Long id) {
@@ -42,13 +39,13 @@ public class UserController {
 		User user = userRepository.findByUsername(username);
 		return user == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(user);
 	}
-	
+
 	@PostMapping("/create")
 	public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
 		// log.info("Creating user {}", createUserRequest.getUsername());
 		User user = new User();
 		user.setUsername(createUserRequest.getUsername());
-		log.info("Username set with ", createUserRequest.getUsername());
+//		log.info("Username set with ", createUserRequest.getUsername());
 
 		Cart cart = new Cart();
 		cartRepository.save(cart);
@@ -64,25 +61,29 @@ public class UserController {
 		// user.setPassword(createUserRequest.getPassword());
 
 
-		// IMPORTANT: I believe my implementation is superior, but I am changing this to a more basic solution
-		// for testing purposes.
-		// My version
-		byte[] theSalt = createSalt();
-		String saltedPassword = get_SecurePassword(createUserRequest.getPassword(), theSalt);
+		// I am going to remove my salt, as BCryptPasswordEncoder generates its own salt, which is
+		// stored in the hashed user password
+		//
+		// byte[] theSalt = createSalt();
+		// String saltedPassword = get_SecurePassword(createUserRequest.getPassword(), theSalt);
 
 		// Classroom version, which does not create its own salt and does not store the salt in the database:
-		// String saltedPassword = bCryptPasswordEncoder.encode(createUserRequest.getPassword());
+		// String
 
-		user.setPassword(saltedPassword);
-		// Uncomment the following if going back to complete solution.
-		user.setSalt(theSalt);
+		String bCryptPassword = bCryptPasswordEncoder.encode(createUserRequest.getPassword());
+
+		user.setPassword(bCryptPassword);
+		// Uncomment the following if going back to my salt solution.
+		// user.setSalt(theSalt);
 
 		userRepository.save(user);
 		return ResponseEntity.ok(user);
 	}
 
-
- 	private static String get_SecurePassword(String passwordToHash, byte[] salt){
+/** **********************************************
+ * This is only needed if I generate my own salt.
+ *  **********************************************
+ 	public static String get_SecurePassword(String passwordToHash, byte[] salt){
 		String generatedPassword = null;
 		try {
 			MessageDigest md = MessageDigest.getInstance("SHA-256");
@@ -107,4 +108,5 @@ public class UserController {
 		random.nextBytes(salt);
 		return salt;
 	}
+ */
 }

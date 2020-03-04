@@ -24,9 +24,10 @@ public class User {
 	@Column
 	private String password;
 
-	@Column
+/** No salt is stored. The BCryptPasswordEncoder salt is stored in the hashed password
+ *  @Column
 	@JsonProperty
-	private byte[] salt;
+	private byte[] salt; */
 
 	public String getPassword() {
 		return password;
@@ -42,13 +43,13 @@ public class User {
     private Cart cart;
 
 
-	public byte[] getSalt() {
+/** 	public byte[] getSalt() {
 		return salt;
 	}
 
 	public void setSalt(byte[] salt) {
 		this.salt = salt;
-	}
+	} */
 
 	public Cart getCart() {
 		return cart;

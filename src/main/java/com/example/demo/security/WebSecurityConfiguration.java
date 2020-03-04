@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import static com.example.demo.security.SecurityConstants.LOGIN_URL;
 import static com.example.demo.security.SecurityConstants.SIGN_UP_URL;
 
 @EnableWebSecurity
@@ -28,6 +29,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable().authorizeRequests()
             .antMatchers(HttpMethod.POST, SIGN_UP_URL).permitAll()
+            .antMatchers(HttpMethod.POST, LOGIN_URL).permitAll()
             .anyRequest().authenticated()
             .and()
             .addFilter(new JWTAuthenticationFilter(authenticationManager()))
