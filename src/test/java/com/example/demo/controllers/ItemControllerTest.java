@@ -32,21 +32,6 @@ public class ItemControllerTest {
         itemController = new ItemController();
         itemRepository = mock(ItemRepository.class);
         TestUtils.injectObjects(itemController, "itemRepository", itemRepository);
-
-/**        mockItem1 = new Item();
-        mockItem1.setId(1l);
-        mockItem1.setName("Item1 Name");
-        mockItem1.setDescription("Item1 Description");
-        mockItem1.setPrice(new BigDecimal(15.99));
-        when(itemRepository.findById(1L)).thenReturn(Optional.of(mockItem1));
-
-        mockItem2 = new Item();
-        mockItem2.setId(2l);
-        mockItem2.setName("Item2 Name");
-        mockItem2.setDescription("Item2 Description");
-        mockItem2.setPrice(new BigDecimal(34.99));
-        when(itemRepository.findById(2L)).thenReturn(Optional.of(mockItem2));
-*/
     }
 
     @Test
