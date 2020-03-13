@@ -5,10 +5,14 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -34,7 +38,7 @@ public class UserControllerTest {
     }
 
     @Test
-    public void createUserHappyPath() throws Exception{
+    public void createUserTest() throws Exception{
         when(encoder.encode("testPassword")).thenReturn("thisIsHashed");
         CreateUserRequest cur = new CreateUserRequest();
         cur.setUsername("test");
@@ -67,6 +71,35 @@ public class UserControllerTest {
         assertEquals(200, response.getStatusCodeValue());
         User myUser = response.getBody();
         assertEquals("FakePassword", myUser.getPassword());
+    }
+
+
+    @Test
+    public void findByIdTest() throws Exception {
+        User mockUser = new User();
+
+        mockUser.setId(2L);
+        mockUser.setUsername("FakeName");
+        mockUser.setPassword("FakePassword");
+        when(userRepo.findById(2L)).thenReturn(Optional.of(mockUser));
+
+        CreateUserRequest cur = new CreateUserRequest();
+        cur.setUsername("FakeName");
+        cur.setPassword("FakePassword");
+        cur.setConfirmPassword("FakePassword");
+
+        ResponseEntity<User> response = userController.createUser(cur);
+        assertNotNull(response);
+        assertEquals(200, response.getStatusCodeValue());
+
+        ResponseEntity<User> responseEntity = userController.findById(2L);
+        Assert.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
+
+        User getUser = responseEntity.getBody();
+        Assert.assertEquals(getUser.getUsername(), mockUser.getUsername());
+        Assert.assertEquals(getUser.getId(), mockUser.getId());
+
+
     }
 
 

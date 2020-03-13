@@ -3,89 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cf5e4c45-9380-4618-b29c-e7b5aa139bfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/NOTICE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/RELEASE-NOTES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-1.2-api-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-1.2-api-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-1.2-api-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-api-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-api-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-api-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-appserver-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-appserver-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-appserver-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-cassandra-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-cassandra-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-cassandra-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-core-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-core-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-core-2.13.0-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-core-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-couchdb-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-couchdb-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-couchdb-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-docker-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-docker-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-docker-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-flume-ng-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-flume-ng-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-flume-ng-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-iostreams-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-iostreams-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-iostreams-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jcl-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jcl-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jcl-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jdbc-dbcp2-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jdbc-dbcp2-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jdbc-dbcp2-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jmx-gui-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jmx-gui-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jmx-gui-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jpa-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jpa-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jpa-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jul-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jul-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-jul-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-liquibase-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-liquibase-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-liquibase-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-mongodb2-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-mongodb2-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-mongodb2-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-mongodb3-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-mongodb3-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-mongodb3-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-slf4j-impl-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-slf4j-impl-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-slf4j-impl-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-slf4j18-impl-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-slf4j18-impl-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-slf4j18-impl-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-spring-cloud-config-client-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-spring-cloud-config-client-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-spring-cloud-config-client-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-taglib-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-taglib-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-taglib-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-to-slf4j-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-to-slf4j-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-to-slf4j-2.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-web-2.13.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-web-2.13.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apache-log4j-2.13.0-bin/log4j-web-2.13.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationVerificationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationVerificationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/UserControllerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,7 +19,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="34" />
+    <option name="myElementSize" value="154" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -109,17 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="976">
-              <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+            <state relative-caret-position="1782">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -127,71 +38,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-677">
-              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <state relative-caret-position="132">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConstants.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/SareetaApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1012">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/repositories/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/UserOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/CartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/UserDetailsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/WebSecurityConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationVerificationFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/controllers/ItemControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="729">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/SareetaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -221,15 +141,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/model/requests/CreateUserRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/demo/TestUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/security/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationVerificationFilter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/ItemControllerTest.java" />
       </list>
     </option>
   </component>
@@ -262,10 +183,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1358" />
+    <option name="y" value="-409" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -275,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,10 +294,41 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Project06-eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Juanjo-Project06-eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project06-eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Juanjo-Project06-eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project06-eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Juanjo-Project06-eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project06-eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Juanjo-Project06-eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -401,16 +352,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SareetaApplication">
-    <configuration name="SareetaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.SareetaApplication" />
+  <component name="RunManager" selected="JUnit.ItemControllerTest">
+    <configuration name="ItemControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project06-eCommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemControllerTest.getItemByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project06-eCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="METHOD_NAME" value="getItemByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemControllerTest.getItemsByNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project06-eCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="METHOD_NAME" value="getItemsByNameTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemControllerTest.getItemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project06-eCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="METHOD_NAME" value="getItemsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -430,61 +431,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.creatUserHappyPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project06-eCommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="creatUserHappyPath" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.createUserHappyPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project06-eCommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="createUserHappyPath" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.findByUserNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project06-eCommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="findByUserNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SareetaApplication" />
+        <item itemvalue="JUnit.ItemControllerTest" />
+        <item itemvalue="JUnit.ItemControllerTest.getItemsByNameTest" />
+        <item itemvalue="JUnit.ItemControllerTest.getItemByIdTest" />
+        <item itemvalue="JUnit.ItemControllerTest.getItemsTest" />
         <item itemvalue="JUnit.UserControllerTest" />
-        <item itemvalue="JUnit.UserControllerTest.findByUserNameTest" />
-        <item itemvalue="JUnit.UserControllerTest.createUserHappyPath" />
-        <item itemvalue="JUnit.UserControllerTest.creatUserHappyPath" />
       </list>
     </recent_temporary>
   </component>
@@ -502,39 +455,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserControllerTest_createUserHappyPath - 2020.02.24 at 07h 13m 53s.xml">
-      <configuration name="UserControllerTest.createUserHappyPath" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_createUserHappyPath - 2020.02.24 at 07h 14m 03s.xml">
-      <configuration name="UserControllerTest.createUserHappyPath" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_createUserHappyPath - 2020.02.24 at 07h 20m 56s.xml">
-      <configuration name="UserControllerTest.createUserHappyPath" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_createUserHappyPath - 2020.02.24 at 07h 23m 17s.xml">
-      <configuration name="UserControllerTest.createUserHappyPath" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_findByUserNameTest - 2020.02.24 at 07h 30m 49s.xml">
-      <configuration name="UserControllerTest.findByUserNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_findByUserNameTest - 2020.02.24 at 07h 36m 13s.xml">
-      <configuration name="UserControllerTest.findByUserNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_findByUserNameTest - 2020.02.24 at 07h 36m 23s.xml">
-      <configuration name="UserControllerTest.findByUserNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest - 2020.02.24 at 07h 36m 38s.xml">
+    <history-entry file="UserControllerTest - 2020.03.07 at 09h 04m 51s.xml">
       <configuration name="UserControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserControllerTest - 2020.02.29 at 22h 17m 11s.xml">
+    <history-entry file="UserControllerTest_findByIdTest - 2020.03.07 at 18h 35m 03s.xml">
+      <configuration name="UserControllerTest.findByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2020.03.07 at 18h 35m 26s.xml">
       <configuration name="UserControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserControllerTest - 2020.03.01 at 18h 14m 41s.xml">
+    <history-entry file="UserControllerTest - 2020.03.07 at 18h 35m 36s.xml">
       <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemControllerTest_getItemsTest - 2020.03.12 at 21h 52m 32s.xml">
+      <configuration name="ItemControllerTest.getItemsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemControllerTest_getItemByIdTest - 2020.03.13 at 07h 19m 22s.xml">
+      <configuration name="ItemControllerTest.getItemByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemControllerTest_getItemByIdTest - 2020.03.13 at 07h 20m 39s.xml">
+      <configuration name="ItemControllerTest.getItemByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemControllerTest - 2020.03.13 at 07h 20m 53s.xml">
+      <configuration name="ItemControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemControllerTest_getItemsByNameTest - 2020.03.13 at 07h 53m 15s.xml">
+      <configuration name="ItemControllerTest.getItemsByNameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemControllerTest - 2020.03.13 at 07h 53m 28s.xml">
+      <configuration name="ItemControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-409" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -542,19 +495,19 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.09984872" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24626866" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.049099836" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32827735" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.13420622" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="10" weight="0.049099836" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" weight="0.32995737" />
@@ -563,8 +516,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" x="1" y="31" width="1362" height="696" id="Run" order="8" sideWeight="0.6006711" type="WINDOWED" visible="true" weight="0.8459488" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.30620155" side_tool="true" weight="0.43192133" />
+      <window_info anchor="right" x="295" y="73" width="818" height="628" id="Run" order="8" sideWeight="0.6006711" type="WINDOWED" visible="true" weight="0.8459488" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" sideWeight="0.30620155" side_tool="true" visible="true" weight="0.2979744" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -600,36 +553,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/OrderController.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/OrderController.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/CartController.java</url>
           <line>36</line>
           <properties />
@@ -644,10 +567,16 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Project06_eCommerce$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1582529792710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Project06_eCommerce$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1583606128691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.demo.controllers.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Project06_eCommerce$UserControllerTest_createUserHappyPath.ic" NAME="UserControllerTest.createUserHappyPath Coverage Results" MODIFIED="1582528991755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project06_eCommerce$SareetaApplicationTests.ic" NAME="SareetaApplicationTests Coverage Results" MODIFIED="1583358001813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project06_eCommerce$ItemControllerTest.ic" NAME="ItemControllerTest Coverage Results" MODIFIED="1584086002784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.demo.controllers.*</FILTER>
     </SUITE>
   </component>
@@ -661,20 +590,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19118">
@@ -703,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/TestUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -721,20 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/SareetaApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -756,13 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -916,20 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/SareetaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/repositories/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -944,24 +817,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="976">
-          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/UserOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -972,17 +831,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/WebSecurityConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        <state relative-caret-position="132">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="880">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -993,24 +852,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConstants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/WebSecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        <state relative-caret-position="748">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationVerificationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="880">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/SareetaApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/SareetaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/controllers/ItemControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
         </state>
       </provider>
     </entry>
