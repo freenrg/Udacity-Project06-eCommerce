@@ -5,6 +5,8 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -16,7 +18,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/user")
 public class UserController {
-	
+
+	private static Logger log = LogManager.getLogger(UserController.class);
+
 	@Autowired
 	private UserRepository userRepository;
 	
@@ -26,23 +30,22 @@ public class UserController {
 	@Autowired
 	private BCryptPasswordEncoder bCryptPasswordEncoder;
 
-//	¿Es éste el problema de compilación?
-// 	final static Logger log = LoggerFactory.getLogger(UserController.class);
-
 	@GetMapping("/id/{id}")
 	public ResponseEntity<User> findById(@PathVariable Long id) {
+		log.info("Finding User by Id. ID: {}",id);
 		return ResponseEntity.of(userRepository.findById(id));
 	}
 	
 	@GetMapping("/{username}")
 	public ResponseEntity<User> findByUserName(@PathVariable String username) {
 		User user = userRepository.findByUsername(username);
+		log.info("Finding User by Username. Username: {} - ID found: {}",username, user.getId());
 		return user == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(user);
 	}
 
 	@PostMapping("/create")
 	public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
-		// log.info("Creating user {}", createUserRequest.getUsername());
+		log.info("Creating user with Username: {}", createUserRequest.getUsername());
 		User user = new User();
 		user.setUsername(createUserRequest.getUsername());
 //		log.info("Username set with ", createUserRequest.getUsername());
@@ -54,29 +57,15 @@ public class UserController {
 
 		if (createUserRequest.getPassword().length() < 7 ||
 				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
-			// log.error("Error with user password. Cannot create user {}", createUserRequest.getUsername());
+			log.info("Error with user password. Cannot create user {}", createUserRequest.getUsername());
 			return ResponseEntity.badRequest().build();
 		}
 
-		// user.setPassword(createUserRequest.getPassword());
-
-
-		// I am going to remove my salt, as BCryptPasswordEncoder generates its own salt, which is
-		// stored in the hashed user password
-		//
-		// byte[] theSalt = createSalt();
-		// String saltedPassword = get_SecurePassword(createUserRequest.getPassword(), theSalt);
-
-		// Classroom version, which does not create its own salt and does not store the salt in the database:
-		// String
-
 		String bCryptPassword = bCryptPasswordEncoder.encode(createUserRequest.getPassword());
-
 		user.setPassword(bCryptPassword);
-		// Uncomment the following if going back to my salt solution.
-		// user.setSalt(theSalt);
 
 		userRepository.save(user);
+		log.info("User saved: {}", createUserRequest.getUsername());
 		return ResponseEntity.ok(user);
 	}
 
