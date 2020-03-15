@@ -2,7 +2,10 @@ package com.example.demo.security;
 
 import com.auth0.jwt.JWT;
 import com.example.demo.model.persistence.User;
+import com.example.demo.services.SplunkLog;
+import com.example.demo.services.SplunkLogService;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -31,6 +34,11 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 
     // private static Logger myLog = LoggerFactory.getLogger(JWTAuthenticationFilter.class);
 
+    @Autowired
+    private SplunkLogService splunkLogService;
+
+    private SplunkLog splunkLog;
+
     public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
         this.authenticationManager = authenticationManager;
     }
@@ -51,6 +59,12 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 
         } catch (IOException e) {
 //            myLog.error("Authentication Failed. Error Message: {}. Cause: {}", e.getMessage(), e.getCause());
+
+            splunkLog = new SplunkLog();
+            splunkLog.addField("EXCEPTION: Authentication Failed.",
+                    "Error Message: "+ e.getMessage() + " Cause:"+ e.getCause());
+            splunkLogService.logToSplunk(splunkLog);
+
             throw new RuntimeException(e);
         }
     }
