@@ -8,6 +8,7 @@ import com.example.demo.model.persistence.UserOrder;
 import com.example.demo.model.persistence.repositories.ItemRepository;
 import com.example.demo.model.persistence.repositories.OrderRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
+import com.example.demo.services.SplunkLogService;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.http.HttpStatus;
@@ -35,6 +36,8 @@ public class OrderControllerTest {
     private OrderController orderController;
     private OrderRepository orderRepository;
 
+    private SplunkLogService splunkLogService;
+
     private Item mockItem1;
     private Item mockItem2;
 
@@ -43,11 +46,14 @@ public class OrderControllerTest {
     @Before
     public void setUp() {
         orderController = new OrderController();
+        splunkLogService = mock(SplunkLogService.class);
+
         orderRepository = mock(OrderRepository.class);
         userRepository = mock(UserRepository.class);
 
         TestUtils.injectObjects(orderController, "userRepository", userRepository);
         TestUtils.injectObjects(orderController, "orderRepository", orderRepository);
+        TestUtils.injectObjects(orderController, "splunkLogService", splunkLogService);
     }
 
     @Test
